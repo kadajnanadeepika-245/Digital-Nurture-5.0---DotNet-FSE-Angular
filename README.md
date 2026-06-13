@@ -228,7 +228,7 @@ Visual Studio Code
 
 **Deepika Kada**
 
-📧 Email: your-email@example.com
+📧 Email: jnanakadaepdcl@gmail.com
 
 🔗 GitHub: https://github.com/kadajnanadeepika-245
 
