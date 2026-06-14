@@ -41,16 +41,15 @@ SingletonPatternExample
 
 ## Screenshots
 
-## Project Structure
+## Screenshots
 
-![Project Structure](<img width="288" height="188" alt="image" src="https://github.com/user-attachments/assets/86723dc3-330e-45c8-9054-96738c79e58d" />
-)
+### Project Structure
 
-## Program Output
+![Project Structure](https://github.com/user-attachments/assets/0abcc3b4-fa9f-4c7f-82a3-172525bb77c4)
 
-![Program Output](<img width="492" height="180" alt="image" src="https://github.com/user-attachments/assets/3eb86d68-0d37-4888-bef5-c09d1460a5f8" />
-)
----
+### Program Output
+
+![Program Output](https://github.com/user-attachments/assets/3eb86d68-0d37-4888-bef5-c09d1460a5f8)
 
 ## Observation
 
