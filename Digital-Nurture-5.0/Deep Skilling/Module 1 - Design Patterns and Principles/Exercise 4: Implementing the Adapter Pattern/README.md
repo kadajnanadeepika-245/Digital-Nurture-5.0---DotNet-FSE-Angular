@@ -46,16 +46,13 @@ AdapterPatternExample
 ---
 
 ## Screenshots
-
 ### Project Structure
 
-![Project Structure](https://github.com/user-attachments/assets/7fc1cdbb-5425-4dc2-9318-af16ad58a7e6 >
-)
+![Project Structure](https://github.com/user-attachments/assets/d5c12b26-6618-4e61-8c0f-df65de0b3b54)
 
 ### Program Output
 
-![Program Output](https://github.com/user-attachments/assets/e64d0aed-52bc-4d2f-ae63-9b778add7c2d>
-)
+![Program Output](https://github.com/user-attachments/assets/af881f8a-39cd-419e-bdbf-7fa63bf10290)
 
 ---
 
