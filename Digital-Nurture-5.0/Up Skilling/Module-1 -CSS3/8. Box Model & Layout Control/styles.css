@@ -1,0 +1,14 @@
+.eventCard{
+border:2px solid black;
+padding:20px;
+margin:30px;
+}
+input:focus{
+outline:3px solid red;
+}
+.hide1{
+visibility:hidden;
+}
+.hide2{
+display:none;
+}
