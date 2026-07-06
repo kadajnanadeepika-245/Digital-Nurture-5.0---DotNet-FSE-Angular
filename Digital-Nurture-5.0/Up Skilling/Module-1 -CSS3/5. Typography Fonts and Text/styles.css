@@ -1,0 +1,12 @@
+body{
+font-family:'Roboto',sans-serif;
+}
+.description{
+font-size:18px;
+font-style:italic;
+font-weight:bold;
+text-align:center;
+text-transform:uppercase;
+letter-spacing:2px;
+line-height:2;
+}
