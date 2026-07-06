@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+form{
+background:#eee;
+padding:20px;
+width:300px;
+}
+</style>
+</head>
+<body>
+
+<form onsubmit="register(event)">
+<input type="text" placeholder="Enter Name" required autofocus>
+<br><br>
+
+<input type="email" placeholder="Enter Email" required>
+<br><br>
+
+<input type="date">
+<br><br>
+
+<select>
+<option>Music</option>
+<option>Sports</option>
+</select>
+<br><br>
+
+<textarea placeholder="Message"></textarea>
+<br><br>
+
+<button>Submit</button>
+<output id="msg"></output>
+</form>
+
+<script>
+function register(e){
+e.preventDefault();
+document.getElementById("msg").innerHTML="Registration Successful";
+}
+</script>
+
+</body>
+</html>
