@@ -1,0 +1,8 @@
+1. Open webpage in Chrome
+2. Right click → Inspect
+3. Click Device Toolbar
+4. Test mobile and tablet screens
+5. Change CSS values in Elements tab
+6. Open Network tab
+7. Refresh page
+8. Check styles.css loaded successfully
