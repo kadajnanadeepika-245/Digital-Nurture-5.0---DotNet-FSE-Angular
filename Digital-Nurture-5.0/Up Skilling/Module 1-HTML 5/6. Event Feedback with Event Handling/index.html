@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+Phone:
+<input id="phone" onblur="checkPhone()">
+<br><br>
+
+<select onchange="showFee(this.value)">
+<option value="200">Music</option>
+<option value="100">Sports</option>
+</select>
+
+<p id="fee"></p>
+
+<button onclick="alert('Submitted')">Submit</button>
+<br><br>
+
+<img src="event.jpg" width="100" ondblclick="this.width=300">
+<br><br>
+
+<textarea onkeyup="count(this.value)"></textarea>
+
+<p id="count"></p>
+
+<script>
+function checkPhone(){
+let p=document.getElementById("phone").value;
+if(p.length!=10)
+alert("Invalid Number");
+}
+
+function showFee(value){
+document.getElementById("fee").innerHTML="Fee ₹"+value;
+}
+
+function count(text){
+document.getElementById("count").innerHTML=text.length;
+}
+</script>
+
+</body>
+</html>
