@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>jQuery Events</title>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+
+<style>
+
+#colorBox{
+
+width:200px;
+
+height:200px;
+
+border:2px solid black;
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<button id="colorBtn">
+
+Change Color
+
+</button>
+
+
+<br><br>
+
+
+<div id="colorBox">
+
+</div>
+
+
+
+<script>
+
+
+$("#colorBtn").click(function(){
+
+$("#colorBox").css(
+"background-color",
+"red"
+);
+
+});
+
+
+$("#colorBox").dblclick(function(){
+
+$("#colorBox").css(
+"background-color",
+"white"
+);
+
+});
+
+
+</script>
+
+
+</body>
+</html>
