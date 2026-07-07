@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>jQuery Methods</title>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+
+<style>
+
+.box{
+
+width:120px;
+
+height:120px;
+
+background:skyblue;
+
+margin:15px;
+
+display:inline-block;
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="box"></div>
+
+<div class="box"></div>
+
+<div class="box"></div>
+
+
+
+<br>
+
+
+<button id="hide">Hide</button>
+
+<button id="show">Show</button>
+
+<button id="out">Fade Out</button>
+
+<button id="in">Fade In</button>
+
+<button id="toggle">Toggle</button>
+
+<button id="slide">Slide</button>
+
+
+
+
+<script>
+
+
+$("#hide").click(function(){
+
+$(".box").hide();
+
+});
+
+
+$("#show").click(function(){
+
+$(".box").show();
+
+});
+
+
+$("#out").click(function(){
+
+$(".box").fadeOut();
+
+});
+
+
+$("#in").click(function(){
+
+$(".box").fadeIn();
+
+});
+
+
+$("#toggle").click(function(){
+
+$(".box").toggle();
+
+});
+
+
+$("#slide").click(function(){
+
+$(".box")
+.slideUp()
+.delay(1000)
+.slideDown();
+
+});
+
+
+</script>
+
+
+</body>
+</html>
