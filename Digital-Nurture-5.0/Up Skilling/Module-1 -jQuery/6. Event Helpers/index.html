@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>jQuery Event Helpers</title>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+
+<style>
+
+#box{
+
+width:250px;
+
+height:120px;
+
+background:lightblue;
+
+padding:20px;
+
+}
+
+</style>
+
+
+</head>
+
+
+<body>
+
+
+<div id="box">
+
+Mouse Events Here
+
+</div>
+
+
+
+<br>
+
+
+<input id="inputBox"
+placeholder="Type Something">
+
+
+
+<script>
+
+
+$("#box").click(function(){
+
+$(this).text("Clicked");
+
+});
+
+
+$("#box").dblclick(function(){
+
+$(this).text("Double Clicked");
+
+});
+
+
+$("#box").mouseenter(function(){
+
+$(this).css(
+"background-color",
+"yellow"
+);
+
+});
+
+
+$("#box").mouseleave(function(){
+
+$(this).css(
+"background-color",
+"lightblue"
+);
+
+});
+
+
+
+$("#inputBox").keypress(function(){
+
+alert("Key Pressed");
+
+});
+
+
+</script>
+
+
+</body>
+
+</html>
