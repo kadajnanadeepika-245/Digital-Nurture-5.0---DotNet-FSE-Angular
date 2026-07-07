@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>jQuery Selector</title>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</head>
+
+
+<body>
+
+
+<h1>
+Community Portal
+</h1>
+
+
+<p id="p1">
+Welcome Users
+</p>
+
+
+<p id="p2">
+Upcoming Events Available
+</p>
+
+
+<button id="btn">
+Hide Paragraph
+</button>
+
+
+
+<script>
+
+
+$(document).ready(function(){
+
+
+$("h1").text("Welcome to Local Community Event Portal");
+
+
+$("#btn").click(function(){
+
+$("#p2").hide();
+
+});
+
+
+});
+
+
+</script>
+
+
+</body>
+</html>
