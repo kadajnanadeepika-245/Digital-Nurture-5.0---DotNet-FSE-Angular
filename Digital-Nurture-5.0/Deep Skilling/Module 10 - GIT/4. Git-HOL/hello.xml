@@ -1,3 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <message>Hello from GitWork Branch</message>
+
+After conflict resolution:
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<messages>
+
+    <message>Hello from Master Branch</message>
+
+    <message>Hello from GitWork Branch</message>
+
+</messages>
