@@ -1,0 +1,15 @@
+git status
+
+git branch
+
+git pull origin main
+
+echo Git HOL 5 Completed > update.txt
+
+git add .
+
+git commit -m "Added update file"
+
+git push origin main
+
+git log --oneline
