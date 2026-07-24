@@ -1,0 +1,25 @@
+mkdir GitIgnoreDemo
+
+cd GitIgnoreDemo
+
+git init
+
+echo Welcome to Git > welcome.txt
+
+echo Error Log > error.log
+
+mkdir logs
+
+echo Debug Log > logs/debug.log
+
+git status
+
+git add .
+
+git commit -m "Added gitignore example"
+
+git branch -M main
+
+git remote add origin https://github.com/USERNAME/Git-HOL-2.git
+
+git push -u origin main
