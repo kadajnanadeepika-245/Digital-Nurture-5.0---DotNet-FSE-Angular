@@ -1,0 +1,11 @@
+git init
+
+git add .
+
+git commit -m "Module 11 DevOps"
+
+git branch -M main
+
+git remote add origin https://github.com/YOUR_USERNAME/Module-11-DevOps-CICD.git
+
+git push -u origin main
