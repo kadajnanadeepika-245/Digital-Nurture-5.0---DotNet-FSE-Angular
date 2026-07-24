@@ -1,0 +1,11 @@
+$ git status
+
+Untracked files:
+
+.gitignore
+
+welcome.txt
+
+error.log
+
+logs/
