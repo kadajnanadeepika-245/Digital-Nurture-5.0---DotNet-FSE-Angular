@@ -1,0 +1,49 @@
+<h2>Product List</h2>
+
+<table>
+
+    <tr>
+
+        <th>ID</th>
+
+        <th>Name</th>
+
+        <th>Price</th>
+
+        <th>Action</th>
+
+    </tr>
+
+    <tr *ngFor="let product of products">
+
+        <td>{{product.id}}</td>
+
+        <td>{{product.name}}</td>
+
+        <td>{{product.price}}</td>
+
+        <td>
+
+            <button (click)="selectProduct(product)">
+
+                View
+
+            </button>
+
+        </td>
+
+    </tr>
+
+</table>
+
+<div *ngIf="selectedProduct">
+
+    <h3>Selected Product</h3>
+
+    <p><b>ID :</b> {{selectedProduct.id}}</p>
+
+    <p><b>Name :</b> {{selectedProduct.name}}</p>
+
+    <p><b>Price :</b> ₹{{selectedProduct.price}}</p>
+
+</div>
