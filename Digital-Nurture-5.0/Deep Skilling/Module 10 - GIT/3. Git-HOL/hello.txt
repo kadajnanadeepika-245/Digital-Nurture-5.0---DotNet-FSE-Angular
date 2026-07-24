@@ -1,0 +1,3 @@
+Welcome to Git Branching
+
+This file belongs to the master branch.
