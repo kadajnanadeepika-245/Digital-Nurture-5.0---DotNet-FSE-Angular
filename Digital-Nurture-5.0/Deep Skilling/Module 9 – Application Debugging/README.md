@@ -263,7 +263,7 @@ Module9-Angular-Debugging
 
 # Author
 
-Name : Your Name
+Name : Kada Jnana Deepika Lakshmi Sowmya
 
 Course : Full Stack Engineering
 
