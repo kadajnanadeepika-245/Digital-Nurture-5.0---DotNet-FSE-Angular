@@ -1,0 +1,3 @@
+Welcome to Git Ignore Lab
+
+This file is tracked by Git.
