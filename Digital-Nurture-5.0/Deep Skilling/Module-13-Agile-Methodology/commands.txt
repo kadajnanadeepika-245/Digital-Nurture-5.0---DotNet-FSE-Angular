@@ -1,0 +1,11 @@
+git init
+
+git add .
+
+git commit -m "Module 13 Agile Methodology"
+
+git branch -M main
+
+git remote add origin https://github.com/YOUR_USERNAME/Module-13-Agile-Methodology.git
+
+git push -u origin main
