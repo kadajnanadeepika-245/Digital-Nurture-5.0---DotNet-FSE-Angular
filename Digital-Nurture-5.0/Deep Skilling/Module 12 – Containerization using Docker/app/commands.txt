@@ -1,0 +1,23 @@
+docker --version
+
+docker images
+
+docker ps
+
+docker run hello-world
+
+docker pull nginx
+
+docker run -d -p 8080:80 nginx
+
+docker stop <container-id>
+
+docker rm <container-id>
+
+docker build -t dockerdemo .
+
+docker compose up
+
+docker volume ls
+
+docker network ls
