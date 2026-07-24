@@ -1,0 +1,31 @@
+git --version
+
+git config --global user.name "Your Name"
+
+git config --global user.email "youremail@gmail.com"
+
+git config --list
+
+mkdir GitDemo
+
+cd GitDemo
+
+git init
+
+echo Welcome to Git > welcome.txt
+
+dir
+
+cat welcome.txt
+
+git status
+
+git add welcome.txt
+
+git commit -m "First Commit"
+
+git remote add origin https://github.com/USERNAME/GitDemo.git
+
+git pull origin master
+
+git push origin master
