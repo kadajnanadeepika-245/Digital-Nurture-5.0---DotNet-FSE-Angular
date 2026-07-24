@@ -1,0 +1,9 @@
+$ git status
+
+Untracked files:
+
+.gitignore
+
+welcome.txt
+
+nothing added to commit
