@@ -1,0 +1,33 @@
+git status
+
+git checkout -b GitWork
+
+notepad hello.xml
+
+git add .
+
+git commit -m "Added hello.xml in GitWork"
+
+git checkout master
+
+git add .
+
+git commit -m "Updated hello.xml in master"
+
+git log --oneline --graph --decorate --all
+
+git diff master GitWork
+
+git merge GitWork
+
+git add .
+
+git commit -m "Resolved Merge Conflict"
+
+git add .gitignore
+
+git commit -m "Updated gitignore"
+
+git branch
+
+git branch -d GitWork
